@@ -5,5 +5,7 @@ def main():
     print(f"scores:{scores}")
     print(f"sum:{total}")
     print(f"average:{average}")
+    print(f"maximum:{max(scores)}")
+    print(f"minimum:{min(scores)}")
 if __name__=="__main__":
     main()
